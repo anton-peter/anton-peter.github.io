@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+	height: 100%;
+	font-family: "Roboto", sans-serif;
+	background-image: url("/images/background.png");
+	background-repeat: repeat;
+}
+header, nav, article, footer {
+	display: block;
+}
+h1{
+	font-size: 250%;
+	font-weight: lighter;
+	margin-bottom: 2%; 
+}
+a:link    {
+	color: black;
+	text-decoration:none;
+	cursor:pointer;
+}
+a:visited {
+	color: black;
+	text-decoration:none;
+}
+a:focus   {
+	color:black;
+}
+a:hover   {
+	text-decoration:underline;
+}
+a:active  {
+	text-decoration:none;
+}
+.seite{
+	display: table;
+	position: relative;
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+article {
+	margin-top:1%;
+	margin-bottom:1%;
+	text-align:center;
+}
+.profil {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+.hr{
+	color: black;
+	background-color: black;
+	margin-bottom: 2%;
+	width: 300px;
+	text-align: center;
+}
+.social a{
+	margin-right: 5%;
+}
+form p, form b {
+	white-space: nowrap;
+	width: 17%;
+	display: inline-block;
+	padding: 1%;
+}
+.footer{ 
+	display: table-row;
+	width: 100%;
+	height: 3%;
+	text-align: center;
+	text-decoration: none;
+	color:black;
+	margin-right: 25%;
+	margin-left: 25%;
+}
