@@ -76,6 +76,10 @@ footer{
     margin: auto;
 }
 
+.license{
+	height: 4vh;
+}
+
 /* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
